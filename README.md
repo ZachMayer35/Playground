@@ -3,12 +3,10 @@ Plinking around with Angular and stuff.
 
 #Install
 
-[code]
-npm install
-[/code]
+Install node from the [NodeJS website](https://nodejs.org/en/) then run from the command line at the root of this repo.
+
+    npm install
 
 #Run
 
-[code]
-npm start
-[/code]
+    npm start
