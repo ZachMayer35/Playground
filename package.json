@@ -1,0 +1,34 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" \"npm run autoless\"",
+    "tsc": "tsc",
+    "less": "lessc -x --source-map _styles\\main.less styles\\main.css",
+    "autoless": "autoless --source-map _styles styles",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "2.0.0-beta.7",
+    "autoless": "^0.1.7",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "grunt-cli": "^0.1.13",
+    "less": "^2.6.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.22",
+    "zone.js": "0.5.15"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "grunt-cli": "^0.1.13",
+    "lite-server": "^2.1.0",
+    "typescript": "^1.8.2",
+    "typings": "^0.6.8"
+  }
+}
