@@ -1,5 +1,5 @@
 node_modules/
 typings/
 app/
-styles/
-!*/empty.txt
+styles/*
+!*/.empty
